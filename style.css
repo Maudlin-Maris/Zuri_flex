@@ -1,0 +1,105 @@
+
+body{
+    margin: auto;
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+     
+}
+img{
+    margin-bottom: 10px;
+}
+
+h3{
+    color: hsl(0, 0%, 95%);
+}
+p{
+    color: hsla(0, 0%,  100%, 0.75); 
+}
+
+main{
+   
+   margin: auto;
+   padding: 30px;
+   align-items: stretch; 
+   justify-content: center;
+   align-items: center;
+   height: 28rem;
+   width: 700px;
+   display: flex;
+   font-size: 15px;
+   
+  
+  
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    width: 50%;   
+    padding: 50px;
+    
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    width: 50%;
+    padding: 50px;
+
+
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 50%;
+    padding: 50px;
+
+}
+
+button{
+    margin-top: 30px;
+    border: 5px;
+    border-radius: 20px;
+    color:  hsl(184, 100%, 22%);
+    padding: 10px;
+    cursor: pointer;
+    
+
+    
+}
+.button:hover,
+.button:active {
+    background-color: transparent;  
+    color: hsl(0, 0%, 95%);
+    border: 2px solid;
+    
+}
+.Maudlin{
+	margin-left: 45%;
+	margin-top: 4rem;
+}
+.maris{
+	border:1px solid hsl(184, 100%, 22%);;
+	background: hsl(184, 100%, 22%); ;
+	border-radius: 20px;
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+.maris:hover,
+.maris:active{
+	background: hsl(31, 77%, 52%);
+}
+@media screen and (max-width: 700px) {
+    main{
+        display: flex;
+       flex-wrap: wrap;
+       width: 375px;
+   height: 50rem;
+   overflow-y: scroll;
+   border:5px solid hsla(0, 0%, 100%, 0.75);
+   border-radius: 10px;
+
+    }
+
+}
